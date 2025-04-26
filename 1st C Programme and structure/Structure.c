@@ -22,4 +22,5 @@ int main()
     printf("The sum of Two num is %d \n", result);
     printf("Multi of Two nums = %d \n", result2);
     printf("The division of two num is = %f", result3);
+    return 0;
 }
