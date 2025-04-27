@@ -13,7 +13,7 @@ int main()
     result2 = firstNum * secondNum;
     // division of two numbers 
     float result3;
-    result3 = firstNum / secondNum;
+    result3 =(float) firstNum / secondNum; //type custing. we convert a number in float
     //printf also a function where it tells show it in display
     printf("This is my first code in C \n");
     printf("Sum of 12 and 13 is : 25 \n");
@@ -21,6 +21,6 @@ int main()
     printf("The sum of %d and %d = %d \n", a,b,c);
     printf("The sum of Two num is %d \n", result);
     printf("Multi of Two nums = %d \n", result2);
-    printf("The division of two num is = %f", result3);
+    printf("The division of two num is = %.2f", result3);
     return 0;
 }
